@@ -9,7 +9,8 @@ Project ini membangun pipeline ETL untuk dataset transaksi e-commerce menggunaka
 - Metabase (BI Dashboard)
 - Docker Compose
 
-## Folder Struktur
+## 🗂️ Folder Struktur
+```text
 airflow_project/
 ├── dags/
 │   ├── etl_load_csv.py
@@ -17,9 +18,10 @@ airflow_project/
 ├── data/
 │   └── Online Retail.csv
 ├── metabase/
-│   └── dashboard.pdf
+│   └── dashboard_screenshot.png
 ├── docker-compose.yml
 └── README.md
+```
 
 ## 🔄 Pipeline Flow
 
