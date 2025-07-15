@@ -38,7 +38,7 @@ def load_csv_to_postgres(**context):
 # Define DAG
 with DAG(
     dag_id="etl_load_csv",
-    description="Load Online Retail CSV ke PostgreSQL menggunakan PostgresHook",
+    description="Load CSV ke PostgreSQL menggunakan PostgresHook",
     start_date=datetime(2023, 1, 1),
     schedule=None,   # manual / on‑demand
     catchup=False,
